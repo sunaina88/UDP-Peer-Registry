@@ -122,9 +122,8 @@ QUIT
 
 ## 📸 Example Interaction
 
+alice terminal: 
 ```bash
-alice terminal
-
 LIST
 PEER:alice:127.0.0.1:8123
 PEER:bob:127.0.0.1:8712
@@ -132,21 +131,22 @@ PEER:bob:127.0.0.1:8712
 MSG:bob:hi Bob!
 [Direct to bob] hi Bob!
 ```
-```bash
-bob terminal
 
+bob terminal: 
+
+```bash
 [Direct from alice] hi Bob!
 ```
 ---
 
 ## 🧠 What This Project Demonstrates
 
-UDP communication (DatagramSocket + DatagramPacket)
-Decentralized peer discovery
-Custom text-based network protocol
-Mapping peers to dynamic ports
-Writing concurrent listeners in Java
-Client–server & P2P interaction patterns
+- UDP communication (DatagramSocket + DatagramPacket)
+- Decentralized peer discovery
+- Custom text-based network protocol
+- Mapping peers to dynamic ports
+- Writing concurrent listeners in Java
+- Client–server & P2P interaction patterns
 
 ---
 
